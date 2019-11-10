@@ -208,9 +208,18 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   right: 150px;
+   width: 240px;
+   height: 240px;
    border-radius: 100%;
+   /*
+   opacity: 0.65;
+   -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  */
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -824,14 +833,21 @@ call-to-action .button {
    color: #ebeeee;
 }
 
+#contact h2 {
+   font:'opensans-bold', sans-serif;
+   color: #EBEEEE;  
+   margin-bottom: 6px;
+}
+
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;  
+   color: rgb(184, 189, 189);  
    margin-bottom: 6px;
 }
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
-   text-align: center;
+   text-align: left;
+   color: rgb(214, 209, 209);
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
