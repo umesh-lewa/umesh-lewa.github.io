@@ -380,7 +380,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 30px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -402,7 +402,7 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: #0aa88e;
    display: inline-block;
-  	height: 42px;
+  	height: 30px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
