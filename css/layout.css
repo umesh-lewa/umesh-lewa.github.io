@@ -327,6 +327,30 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 48px;
 }
 
+.tooltip {
+
+ }
+ 
+ .tooltip .tooltiptext {
+   visibility: hidden;
+   width: 120px;
+   background-color: white;
+   color: black;
+   text-align: center;
+   border-radius: 6px;
+   padding: 5px 0;
+   
+   /* Position the tooltip */
+   position: absolute;
+   z-index: 1;
+   bottom: 100%;
+   left: 50%;
+   margin-left: -60px;
+ }
+ 
+ .tooltip:hover .tooltiptext {
+   visibility: visible;
+ }
 
 #skills h1 span {
    border-bottom: 3px solid #11ABB0;
@@ -500,6 +524,32 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 90px;
    padding-bottom: 60px;
 }
+
+#portfolio .button {
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 16px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+ }
+
+#portfolio .button1 {
+   background-color: transparent;
+   color: white; 
+   border: 2px solid #4CAF50;
+}
+ 
+#portfolio .button1:hover {
+   background-color: #4CAF50;
+   color: white;
+}
+
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
