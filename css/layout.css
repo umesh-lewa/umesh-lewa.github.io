@@ -624,6 +624,7 @@ ul#nav li.current a { color: #F06000; }
    margin-top: -15px;
 }
 .portfolio-item .item-wrap img {
+   
    vertical-align: bottom;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
@@ -1150,3 +1151,9 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+@media screen and (max-width: 600px) {
+   .portfolio-item .item-wrap img {
+        width: 250px;
+        height: 250px;
+   }
+}
